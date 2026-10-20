@@ -117,18 +117,18 @@ bool dequeue(Queue& q, int& nomor) {
 // =============================================================================
 void clear(Queue& q) {
     if (isEmpty(q))
-    {
-     return;
-    }
+//     {
+//      return;
+//     }
     
-    Node* hapus = q.depan;
+//     Node* hapus = q.depan;
 
-    while (hapus != nullptr)
-    {
-     hapus = hapus.next;
+//     while (hapus != nullptr)
+//     {
+//      hapus = hapus.next;
 
-     
-    }
+
+//     }
     
     
 }
